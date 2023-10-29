@@ -61,44 +61,44 @@
     队空条件: rear == font
     队满条件: (rear + 1) % MaxSize == font
 '''
-class Queue:
-    # 初始化队列,规定数组长度,队首队尾
-    def __init__(self, size = 100):
-        self.queue = [0 for _ in range(size)]
-        self.rear = 0
-        self.font = 0
-        self.size = size
-
-    # 入队
-    def push(self, element):
-        if not self.is_filled():
-            self.rear = (self.rear + 1) % self.size
-            self.queue[self.rear] = element
-        else:
-            raise IndexError("Queue is filled")
-
-    # 出队
-    def pop(self):
-        if not self.is_empty():
-            self.font = (self.font + 1) % self.size
-            return self.queue[self.font]
-        else:
-            raise IndexError("Queue is empty")
-
-    # 队空
-    def is_empty(self):
-        return self.rear == self.font
-
-    # 队满
-    def is_filled(self):
-        return (self.rear + 1) % self.size == self.font
-
-que = Queue(10)
-for i in range(que.size - 1):
-    que.push(i)
-print(que.is_filled())
-for i in range(3):
-    print(que.pop())
+# class Queue:
+#     # 初始化队列,规定数组长度,队首队尾
+#     def __init__(self, size = 100):
+#         self.queue = [0 for _ in range(size)]
+#         self.rear = 0
+#         self.font = 0
+#         self.size = size
+#
+#     # 入队
+#     def push(self, element):
+#         if not self.is_filled():
+#             self.rear = (self.rear + 1) % self.size
+#             self.queue[self.rear] = element
+#         else:
+#             raise IndexError("Queue is filled")
+#
+#     # 出队
+#     def pop(self):
+#         if not self.is_empty():
+#             self.font = (self.font + 1) % self.size
+#             return self.queue[self.font]
+#         else:
+#             raise IndexError("Queue is empty")
+#
+#     # 队空
+#     def is_empty(self):
+#         return self.rear == self.font
+#
+#     # 队满
+#     def is_filled(self):
+#         return (self.rear + 1) % self.size == self.font
+#
+# que = Queue(10)
+# for i in range(que.size - 1):
+#     que.push(i)
+# print(que.is_filled())
+# for i in range(3):
+#     print(que.pop())
 
 
 
