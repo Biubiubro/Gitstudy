@@ -12,3 +12,4 @@ with cursor as cursor:
     result = cursor.fetchall()
     print(result)
 
+
