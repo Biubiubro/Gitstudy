@@ -72,7 +72,29 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Python.pymysql_">
+  <component name="RunManager" selected="Python.Algorithm_stack_array_linkedlist">
+    <configuration name="Algorithm_stack_array_linkedlist" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyMysql" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Leetcode" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Leetcode/Algorithm_stack_array_linkedlist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Base_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyMysql" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,6 +163,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Algorithm_stack_array_linkedlist" />
         <item itemvalue="Python.pymysql_" />
         <item itemvalue="Python.Base_1" />
       </list>
